@@ -1,0 +1,13 @@
+.scroll-auto{
+  transform: translate3d(0,100%,0);
+  animation: autoscroll 30s linear infinite;
+}
+
+@keyframes autoscroll {
+  from {
+    transform: translate3d(0,100%,0);
+  }
+  to {
+    transform: translate3d(0,-100%,0);
+  }
+}

@@ -1,0 +1,27 @@
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 5px;
+  border-radius: 5px;
+  outline: none;
+  background-color: #fff;
+  transition: background 450ms ease-in;
+}
+
+.slider::-webkit-slider-thumb {
+  @apply bg-amber-300;
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  @apply bg-amber-300;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+}

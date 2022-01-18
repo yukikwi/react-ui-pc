@@ -3,6 +3,9 @@ import Navbar from '../components/Navbar'
 import Storage from '../components/Storage'
 import VolumeMixer from '../components/VolumeMixer'
 import Program from '../components/Program'
+import VolumeUp from '../components/icons/VolumeUp'
+import Browser from '../components/Browser'
+import Youtube from '../components/Youtube'
 
 function Index() {
   return (
@@ -12,7 +15,19 @@ function Index() {
 
       {/* Program area */}
       <div className='relative overflow-hidden w-screen h-full'>
+
         <Program
+          className='top-1 left-[10%]'
+          programBarBG='bg-program'
+          programName='&nbsp;'
+          thick
+          isTabPill
+        >
+          <Browser />
+        </Program>
+
+        <Program
+          className='top-24 right-[5%]'
           programBarBG='bg-blue-500'
           programName='Storage'
         >
@@ -20,10 +35,19 @@ function Index() {
         </Program>
 
         <Program
+          className='top-1 right-[10%]'
           programBarBG='bg-program'
-          programName='&nbsp;'
+          programName={[<VolumeUp className='inline-block w-6 h-6' />, 'Volume Mixer']}
         >
           <VolumeMixer />
+        </Program>
+
+        <Program
+          className='top-1/3 right-[10%]'
+          programBarBG='bg-primary-pink'
+          programName='&nbsp;'
+        >
+          <Youtube />
         </Program>
       </div>
     </div>
