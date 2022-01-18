@@ -29,6 +29,7 @@ function Index() {
         <Program
           className='top-24 right-[5%]'
           programBarBG='bg-blue-500'
+          width='w-2/6'
           programName='Storage'
         >
           <Storage />
@@ -36,6 +37,7 @@ function Index() {
 
         <Program
           className='top-1 right-[10%]'
+          width='min-w-[33.33%]'
           programBarBG='bg-program'
           programName={[<VolumeUp className='inline-block w-6 h-6' />, 'Volume Mixer']}
         >

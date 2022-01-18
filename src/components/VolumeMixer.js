@@ -10,7 +10,7 @@ function VolumeMixer() {
     <div className='bg-program-bg py-2 text-black hover:cursor-default'>
       <div className='grid grid-cols-6 gap-2'>
         <div>
-          <div className='flex flex-col items-center gap-2 border-r-2 border-black'>
+          <div className='flex flex-col items-center gap-2 border-r-2 border-black px-2'>
             <span>Device</span>
             <VolumeUp />
             <span className='text-xs'>Speaker</span>
@@ -19,7 +19,7 @@ function VolumeMixer() {
         </div>
         <div className='col-span-5'>
           <span>Application</span>
-          <div className='grid grid-cols-5 gap-1 mt-2'>
+          <div className='grid grid-cols-5 gap-1 mt-2 px-2'>
             <div className='flex flex-col items-center gap-2'>
               <FontAwesomeIcon className='h-6 w-6' icon={faDiscord} />
               <span className='text-xs'>Uiscord</span>
