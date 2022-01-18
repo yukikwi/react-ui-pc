@@ -55,7 +55,7 @@ function Program({ children, className, defaultPosition, width, programName, pro
 
 Program.defaultProps = {
   thick: false,
-  width: 'w-2/6',
+  width: 'min-w-2/6',
   className: ''
 }
 
