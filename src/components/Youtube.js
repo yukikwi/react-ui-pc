@@ -75,7 +75,7 @@ function Youtube() {
 
   return (
     <div>
-      <YouTube videoId="NmP_EJdcE6E" opts={opts} onReady={onPlayerReady} onStateChange={(e) => {handleState(e)}} />
+      <YouTube className='aspect-video' videoId="NmP_EJdcE6E" opts={opts} onReady={onPlayerReady} onStateChange={(e) => {handleState(e)}} />
 
       {/* Video control */}
       <div className='bg-primary-pink px-5 py-2 text-white'>

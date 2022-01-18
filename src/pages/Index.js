@@ -44,6 +44,7 @@ function Index() {
 
         <Program
           className='top-1/3 right-[10%]'
+          width='min-w-1/2'
           programBarBG='bg-primary-pink'
           programName='&nbsp;'
         >
