@@ -8,7 +8,8 @@ module.exports = {
         'primary-pink': '#FE6974',
         'black': '#84726B',
         'program': '#796C64',
-        'program-bg': '#FFEEE6'
+        'program-bg': '#FFEEE6',
+        'program-bg-light': '#9e9890'
       },
       animation: {
         'top-bottom': 'top2bottom 5s linear infinite',
